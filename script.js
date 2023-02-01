@@ -25,12 +25,9 @@ for(i=0;i<28;i++) //balaye les 28 cases
 {
 var img= "url(images/" + i+".jpg)"; //fabrique l'image
 console.log(img);
-document.getElementById(arr[i]).style.backgroundImage=img;
+document.getElementById(arr[i]).style.backgroundImage=img; //change l'image de fond
+}
+document.getElementById("11").style.backgroundImage="";
 }
 
 
-
-
-
-
-}
